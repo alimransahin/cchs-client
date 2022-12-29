@@ -1,5 +1,10 @@
 # Getting Started with Create React App
 
+
+## important
+Custom hooks= src->components->customHooks
+call custom hooks= src->components->pages->home->Quote.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
