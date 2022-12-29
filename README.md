@@ -2,8 +2,8 @@
 
 
 ## important
-Custom hooks= src->components->customHooks
-call custom hooks= src->components->pages->home->Quote.
+#Custom hooks= src->components->customHooks
+#call custom hooks= src->components->pages->home->Quote.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
