@@ -48,18 +48,19 @@ const History = () => {
                                 fullText.slice(0, 1000)
                             }
                             <label htmlFor="my-modal-4" className="btn btn-secondary max-w-fit mx-auto">Read More</label>
-                            <input type="checkbox" id="my-modal-4" className="modal-toggle" />
-                            <label htmlFor="my-modal-4" className="modal cursor-pointer">
-                                <label className="modal-box relative w-11/12 max-w-5xl" htmlFor="">
-                                    <h3 className="text-lg font-bold">History of Central Coronation High School</h3>
-                                    <p className="py-4">{fullText}</p>
-                                </label>
-                            </label>
+                            
                         </div>
 
                     </AnimationOnScroll>
                 </div>
             </div>
+            <input type="checkbox" id="my-modal-4" className="modal-toggle" />
+            <label htmlFor="my-modal-4" className="modal cursor-pointer">
+                <label className="modal-box absolute w-11/12 max-w-5xl" htmlFor="">
+                    <h3 className="text-lg font-bold">History of Central Coronation High School</h3>
+                    <p className="py-4">{fullText}</p>
+                </label>
+            </label>
         </div>
     );
 };
